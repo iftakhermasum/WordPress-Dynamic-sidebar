@@ -1,5 +1,7 @@
 <?php
 
+/**** use this code into your function.php file*******/
+
 add_action( 'widgets_init', 'register_my_sidebars' );
 
 function register_my_sidebars() {	
